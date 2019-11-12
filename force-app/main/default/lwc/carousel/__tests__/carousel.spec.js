@@ -6,7 +6,7 @@
  */
 
 import { createElement } from 'lwc';
-import { shadowQuerySelector, querySelectorAll } from 'lightning/testUtils';
+import { shadowQuerySelector, querySelectorAll } from 'c/testUtils';
 import Element from 'lightningtest/carouselTest';
 
 const createCarousel = attributes => {

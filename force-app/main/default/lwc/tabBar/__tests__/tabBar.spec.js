@@ -8,10 +8,7 @@
 import { createElement } from 'lwc';
 import Element from 'c/tabBar';
 import { keyCodes } from 'c/utilsPrivate';
-import {
-    shadowQuerySelector,
-    shadowQuerySelectorAll
-} from 'lightning/testUtils';
+import { shadowQuerySelector, shadowQuerySelectorAll } from 'c/testUtils';
 
 function createComponent() {
     const element = createElement('c-tab-bar', { is: Element });

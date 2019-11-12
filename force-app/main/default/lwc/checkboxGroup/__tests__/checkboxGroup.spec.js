@@ -11,7 +11,7 @@ import {
     verifyClassSet,
     shadowQuerySelector,
     shadowQuerySelectorAll
-} from 'lightning/testUtils';
+} from 'c/testUtils';
 
 const options = [
     { label: 'Ross', value: 'option1' },

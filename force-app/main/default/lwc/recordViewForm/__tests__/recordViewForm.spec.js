@@ -9,7 +9,7 @@ import { createElement, register } from 'lwc';
 import MockRecordHolder from 'lightningtest/mockRecordViewHolder';
 import { registerMockedWireService } from 'lwc-wire-service-sfdc-mocks';
 registerMockedWireService({ register });
-import { shadowQuerySelector } from 'lightning/testUtils';
+import { shadowQuerySelector } from 'c/testUtils';
 import * as densityUtils from '../../../lightning/formDensityUtilsPrivate/formDensityUtilsPrivate';
 
 const DEFAULT_RECORD_ID = 'a00R0000000jq5eIAA';

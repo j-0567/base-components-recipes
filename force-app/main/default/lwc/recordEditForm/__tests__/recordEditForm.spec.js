@@ -13,7 +13,7 @@ import { RESPONSES } from 'force/lds';
 const DEFAULT_RECORD_ID = 'a00R0000000jq5eIAA';
 const DEFAULT_RECORD_TYPE_ID = '012000000000000AAA';
 import picklistRepresentation from './mockPicklistData.json';
-import { shadowQuerySelector } from 'lightning/testUtils';
+import { shadowQuerySelector } from 'c/testUtils';
 import * as densityUtils from '../../../lightning/formDensityUtilsPrivate/formDensityUtilsPrivate';
 import { deepCopy } from 'c/utilsPrivate';
 

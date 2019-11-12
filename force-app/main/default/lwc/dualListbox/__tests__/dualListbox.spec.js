@@ -7,7 +7,7 @@
 
 import { createElement } from 'lwc';
 import Element from 'c/dualListbox';
-import { verifyClassSet, shadowQuerySelector } from 'lightning/testUtils';
+import { verifyClassSet, shadowQuerySelector } from 'c/testUtils';
 
 expect.extend({
     toContainText(actual, expected) {

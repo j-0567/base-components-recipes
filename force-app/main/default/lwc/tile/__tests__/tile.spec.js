@@ -8,7 +8,7 @@
 import { createElement } from 'lwc';
 import Element from 'c/tile';
 import MockTileHolder from 'lightningtest/mockTileHolder';
-import { shadowQuerySelector } from 'lightning/testUtils';
+import { shadowQuerySelector } from 'c/testUtils';
 
 const TILE_TITLE = 'Information tile';
 

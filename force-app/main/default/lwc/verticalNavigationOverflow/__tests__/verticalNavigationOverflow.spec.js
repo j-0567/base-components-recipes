@@ -6,7 +6,7 @@
  */
 
 import { createElement } from 'lwc';
-import { shadowQuerySelector } from 'lightning/testUtils';
+import { shadowQuerySelector } from 'c/testUtils';
 import showMoreLabel from '@salesforce/label/c.lightning_LightningVerticalNavigation_showMore';
 import showLessLabel from '@salesforce/label/c.lightning_LightningVerticalNavigation_showLess';
 import Element from 'c/verticalNavigationOverflow';

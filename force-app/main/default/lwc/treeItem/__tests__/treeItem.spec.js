@@ -6,7 +6,7 @@
  */
 
 import { createElement } from 'lwc';
-import { shadowQuerySelector } from 'lightning/testUtils';
+import { shadowQuerySelector } from 'c/testUtils';
 import Element from 'c/treeItem';
 
 describe('c-tree-item', () => {

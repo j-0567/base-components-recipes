@@ -6,7 +6,7 @@
  */
 
 import { createElement } from 'lwc';
-import { verifyClassSet, querySelector } from 'lightning/testUtils';
+import { verifyClassSet, querySelector } from 'c/testUtils';
 import Element from 'c/icon';
 
 const createIcon = () => {

@@ -7,7 +7,7 @@
 
 import { createElement } from 'lwc';
 import Element from 'c/avatar';
-import { shadowQuerySelector } from 'lightning/testUtils';
+import { shadowQuerySelector } from 'c/testUtils';
 
 const createAvatar = attributes => {
     const element = createElement('c-avatar', { is: Element });

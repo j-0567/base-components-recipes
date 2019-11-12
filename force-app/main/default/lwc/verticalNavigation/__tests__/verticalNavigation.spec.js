@@ -10,7 +10,7 @@ import {
     shadowQuerySelector,
     shadowQuerySelectorAll,
     verifyClassSet
-} from 'lightning/testUtils';
+} from 'c/testUtils';
 import LightningElement from 'lightningtest/verticalNavigationTest';
 import subPage from '@salesforce/label/c.lightning_LightningVerticalNavigation_subPage';
 

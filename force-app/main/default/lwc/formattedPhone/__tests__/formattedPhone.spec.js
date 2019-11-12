@@ -7,7 +7,7 @@
 
 import { createElement } from 'lwc';
 import Element from 'c/formattedPhone';
-import { shadowQuerySelector } from 'lightning/testUtils';
+import { shadowQuerySelector } from 'c/testUtils';
 
 const createComponent = (params = {}) => {
     const element = createElement('c-formatted-phone', { is: Element });

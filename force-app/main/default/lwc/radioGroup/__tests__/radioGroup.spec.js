@@ -7,7 +7,7 @@
 
 import { createElement } from 'lwc';
 import Element from 'c/radioGroup';
-import { verifyClassSet, shadowQuerySelectorAll } from 'lightning/testUtils';
+import { verifyClassSet, shadowQuerySelectorAll } from 'c/testUtils';
 
 const createRadioGroup = () => {
     const element = createElement('lighting-radio-group', { is: Element });

@@ -8,10 +8,7 @@
 import { createElement } from 'lwc';
 import Element from 'c/baseCombobox';
 import exampleData from './../__mockData__/exampleBaseComboboxData';
-import {
-    shadowQuerySelector,
-    shadowQuerySelectorAll
-} from 'lightning/testUtils';
+import { shadowQuerySelector, shadowQuerySelectorAll } from 'c/testUtils';
 
 expect.extend({
     toBeFocused(actual) {

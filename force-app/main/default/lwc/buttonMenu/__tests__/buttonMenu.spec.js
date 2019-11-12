@@ -6,10 +6,7 @@
  */
 
 import { createElement } from 'lwc';
-import {
-    shadowQuerySelector,
-    shadowQuerySelectorAll
-} from 'lightning/testUtils';
+import { shadowQuerySelector, shadowQuerySelectorAll } from 'c/testUtils';
 import Element from 'c/buttonMenu';
 import ButtonMenuWithItems from 'snapshot/buttonMenuTest';
 

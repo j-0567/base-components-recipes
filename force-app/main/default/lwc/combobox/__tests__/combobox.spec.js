@@ -7,7 +7,7 @@
 
 import { createElement } from 'lwc';
 import Element from 'c/combobox';
-import { verifyClassSet } from 'lightning/testUtils';
+import { verifyClassSet } from 'c/testUtils';
 
 const createComponent = (params = {}) => {
     const element = createElement('c-combobox', {

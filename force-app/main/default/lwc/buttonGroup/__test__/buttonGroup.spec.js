@@ -6,7 +6,7 @@
  */
 
 import { createElement } from 'lwc';
-import { shadowQuerySelector } from 'lightning/testUtils';
+import { shadowQuerySelector } from 'c/testUtils';
 import * as buttonGroupUtils from 'lightning/testUtilsButtonGroup';
 import Element from 'lightningtest/buttonGroupTest';
 

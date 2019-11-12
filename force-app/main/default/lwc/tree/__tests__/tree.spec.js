@@ -8,7 +8,7 @@
 import { createElement } from 'lwc';
 import Element from 'c/tree';
 import { getTreeNested, getTree } from '../treeDataGenerator';
-import { shadowQuerySelector } from 'lightning/testUtils';
+import { shadowQuerySelector } from 'c/testUtils';
 
 describe('c-tree', () => {
     it('simple tree', () => {
